@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="915e551a-d971-44ff-bf3d-df50f55ea522">
+  <producedTypes>
+    <selectionType typeId="3b67529c-7cde-46a6-8957-e102f495a6c4" valueTypeId="26cedff1-36b0-4519-9e07-715a41da3f23"/>
+    <listType typeId="b68275fd-091a-4b89-bab2-ef50d6ec1c6f" valueTypeId="fafc2645-1953-431a-a837-f41573651a3d"/>
+    <managerType typeId="36856049-8b46-40a3-9935-f1799be4261e" valueTypeId="60249f0b-0450-42f6-a328-f4d284620962"/>
+    <recordSetType typeId="9218999b-dec6-411b-84fa-a8e52c8e59c8" valueTypeId="af80dedc-e0c9-457a-a5bb-4e2f8ac05cc3"/>
+    <recordKeyType typeId="c17a6c4d-d2d2-42b6-a670-38b72427cc11" valueTypeId="45f531f2-3e05-4d2a-ae76-c3fa8e82861c"/>
+    <recordType typeId="f565bcc2-94c4-4832-9f99-f770728c3e8f" valueTypeId="9f7f8ea4-d307-4c0f-bf13-6436889b1b51"/>
+    <recordManagerType typeId="80b1dea3-a8dd-418b-91fa-4d5a210df782" valueTypeId="493aa486-8efe-41b1-8bd6-1e351cfc8d7b"/>
+  </producedTypes>
+  <name>Штрихкоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="050e2e1e-b1a4-484f-9ebc-02858c22c135">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="4c8b88b8-3d6a-4e95-a21d-3f471835a8e6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продукты</types>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

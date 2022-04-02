@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6693347-dc50-45b0-b0a2-183ea29bda1c">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="50b2e016-5454-4b58-93df-037d1f596d78"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4184e5d1-8e14-4600-bd82-a922d4b8394f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="39ec84f9-2015-41e0-916c-f2dd9b655eb6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="77f2d57a-15b6-4c7c-ae88-bc8d45250d5b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="234ec6f1-6bf4-4d8c-972e-348cf0a7b87a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="60dad56c-1ea1-495b-9f54-756893365fdc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="51323a09-0468-4955-8f14-8ceaa16c5cb4"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="6491cd82-594e-46e6-8a03-7bdc6241ac81">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Производство</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <definedTypes>DefinedType.Денежный</definedTypes>
+  <catalogs>Catalog.Материалы</catalogs>
+  <catalogs>Catalog.Продукты</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ЗакупкаКомплектующих</documents>
+  <documents>Document.ПродажаТоваров</documents>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.ОтчетОПроизводстве</documents>
+  <reports>Report.ОстаткиТоваровНаСкладах</reports>
+  <reports>Report.Закупки</reports>
+  <reports>Report.Продажи</reports>
+  <informationRegisters>InformationRegister.Штрихкоды</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Закупки</accumulationRegisters>
+</mdclass:Configuration>
